@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Dedupe",
+  "version": "1.0.0",
+  "description": "Badge shows the number of duplicate tabs across all windows; click the icon to close them, keeping the original.",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
