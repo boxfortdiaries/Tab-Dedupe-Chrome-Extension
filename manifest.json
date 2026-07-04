@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Tabbler - Remove Duplicate Tabs",
   "version": "1.0.0",
-  "description": "Badge shows the number of duplicate tabs across all windows; click the icon to close them, keeping the original.",
+  "description": "A tiny Chrome extension that keeps track of duplicate tabs across all your open windows and closes them with one click.",
   "permissions": ["tabs"],
   "background": {
     "service_worker": "background.js"
