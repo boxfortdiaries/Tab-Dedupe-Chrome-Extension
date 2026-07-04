@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Tab Dedupe",
+  "name": "Tabbler - Remove Duplicate Tabs",
   "version": "1.0.0",
   "description": "Badge shows the number of duplicate tabs across all windows; click the icon to close them, keeping the original.",
   "permissions": ["tabs"],

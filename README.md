@@ -1,4 +1,4 @@
-# Tab Dedupe
+# Tabbler
 
 A tiny Chrome extension that keeps track of duplicate tabs across all your open windows and closes them with one click.
 

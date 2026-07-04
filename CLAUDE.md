@@ -1,4 +1,4 @@
-# Tab Dedupe
+# Tabbler
 
 Chrome extension (Manifest V3). One job: show how many duplicate tabs are
 open across all windows as a badge on the toolbar icon, and close them —
