@@ -65,18 +65,6 @@ Pinned tabs are excluded from dedup entirely — never a keep/close candidate.
 
 ## Out of scope — do not build
 
-- **A popup dashboard.** Built once (duplicate list + a "Windows" overview
-  of open windows), then explicitly removed — Dan decided the badge+click
-  model was the whole feature for now. Don't resurrect a popup UI
-  speculatively; `action.default_popup` would also silently break
-  click-to-dedupe (see Watch out for).
-- **Domain-based tab grouping / `chrome.tabs.group()`.** Was built as part
-  of the removed popup, also removed with it.
-- **Search-and-jump across tabs.** Was part of the removed popup.
-- **Content-similarity auto-grouping** (grouping tabs by topic/meaning
-  across different domains). Never built — the only free/no-API-cost way
-  to do it is weak local keyword matching, not worth shipping a weak
-  version of.
 - **Automatic background dedupe.** Explicitly rejected in favor of
   click-only — duplicates are meant to accumulate and show in the badge
   until the user acts.
